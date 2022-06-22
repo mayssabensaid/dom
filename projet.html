@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="Cart-Container">
+        <div class="title">
+            Shopping Cart
+
+        </div>
+        <div class="item">
+            <div class="buttons">
+                <span class=" delete-btn" onclick="remote(this)">
+                    <i class="fa-solid fa-x"></i>
+                </span>
+                <span class="like-btn">
+                    <i onclick="myFunction(this)" class="fa-solid fa-heart"></i>
+
+                </span>
+            </div>
+            <div class="image">
+                <img src="https://cdn.shopify.com/s/files/1/0451/5456/6312/products/New-Balance-Womens-574-Fashion-Trainers-Metallic-003.png?v=1634562807"
+                    alt="image" width="40%" />
+            </div>
+            <div class="description">
+                <span>Common Projects</span>
+                <span>Bball High</span>
+                <span>Pink</span>
+            </div>
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button" >
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <input id="number" type="text" name="name" value="0">
+                <button class="minus-btn" type="button" name="button" >
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+            </div>
+            <div class="total-price">$549</div>
+        </div>
+        <div class="item">
+            <div class="buttons">
+
+                <span class=" delete-btn" onclick="remote(this)">
+                    <i class="fa-solid fa-x"></i>
+                </span>
+                <span class="like-btn">
+                    <i onclick="myFunction(this)" class="fa-solid fa-heart"></i>
+
+                </span>
+
+            </div>
+
+            <div class="image">
+                <img src="https://nb.scene7.com/is/image/NB/wx624wt2_nb_02_i?$pdpflexf2$&wid=440&hei=440" width="40%"
+                    alt="" />
+            </div>
+
+            <div class="description">
+                <span>Maison Margiela</span>
+                <span>Future Sneakers</span>
+                <span>White</span>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button" >
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <input id="number" type="text" name="name" value="0">
+                <button class="minus-btn" type="button" name="button" >
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+            </div>
+
+            <div class="total-price">$870</div>
+        </div>
+        <footer>
+            <h1>total</h1>
+           
+            <textarea name="t" id="total" cols="10" rows="2"></textarea>
+            </footer>
+
+    </div>
+
+    </div>
+    <script src="projet.js"></script>
+
+</body>
+
+</html>
